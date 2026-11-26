@@ -26,6 +26,14 @@ topics:
   - diagnostics
   - offline
 
+screenshots:
+  - description: Live network status dashboard
+    path: screenshots/home.png
+  - description: Network diagnostics results
+    path: screenshots/diagnostics.png
+  - description: Connection history timeline
+    path: screenshots/history.png
+
 flutter:
   plugin:
     platforms:

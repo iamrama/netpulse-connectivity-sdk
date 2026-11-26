@@ -3,6 +3,14 @@
 Offline-first connectivity intelligence for Flutter on Android and iOS.
 No backend, no analytics, no account. Apache 2.0.
 
+## Screenshots
+
+<p>
+  <img src="https://raw.githubusercontent.com/iamrama/netpulse-connectivity-sdk/main/screenshots/home.png" width="200" alt="Home screen">
+  <img src="https://raw.githubusercontent.com/iamrama/netpulse-connectivity-sdk/main/screenshots/diagnostics.png" width="200" alt="Diagnostics screen">
+  <img src="https://raw.githubusercontent.com/iamrama/netpulse-connectivity-sdk/main/screenshots/history.png" width="200" alt="History screen">
+</p>
+
 ## Features
 
 - Live connectivity stream and on-demand snapshots
