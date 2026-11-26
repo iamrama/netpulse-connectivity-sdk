@@ -1,0 +1,13 @@
+build_logs/
+.github/
+*.iml
+.idea/
+**/local.properties
+build/
+.dart_tool/
+pubspec.lock
+*.log
+.DS_Store
+**/doc/api/
+.flutter-plugins-dependencies
+Claude outputs/
