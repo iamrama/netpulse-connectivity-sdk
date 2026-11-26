@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 Live network status, internet verification, diagnostics, quality scoring and
 local connection history for Flutter applications.
                        DESC
-  s.homepage         = 'https://pub.dev/packages/netpulse'
+  s.homepage         = 'https://github.com/iamrama/netpulse-connectivity-sdk'
   s.license          = { :type => 'Apache-2.0', :file => '../LICENSE' }
   s.author           = 'NetPulse contributors'
   s.source           = { :path => '.' }

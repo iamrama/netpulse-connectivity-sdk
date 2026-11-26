@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../theme.dart';
 import '../widgets/common.dart';
@@ -6,6 +8,10 @@ import '../widgets/pulse_logo.dart';
 
 /// Keep in step with the package version in pubspec.yaml.
 const netPulseVersion = '0.1.0';
+
+/// The source repository.
+const netPulseRepository =
+    'https://github.com/iamrama/netpulse-connectivity-sdk';
 
 /// Information about the SDK.
 class AboutScreen extends StatelessWidget {
@@ -59,6 +65,12 @@ class AboutScreen extends StatelessWidget {
             ],
           ),
         ),
+        FilledButton.icon(
+          onPressed: () => _openRepository(context),
+          icon: const Icon(Icons.code_rounded),
+          label: const Text('View on GitHub'),
+        ),
+        const SizedBox(height: Insets.md),
         FilledButton.tonalIcon(
           onPressed: () => showLicensePage(
             context: context,
@@ -76,5 +88,23 @@ class AboutScreen extends StatelessWidget {
         ),
       ],
     );
+  }
+
+  Future<void> _openRepository(BuildContext context) async {
+    final messenger = ScaffoldMessenger.of(context);
+    var opened = false;
+    try {
+      opened = await launchUrl(
+        Uri.parse(netPulseRepository),
+        mode: LaunchMode.externalApplication,
+      );
+    } on PlatformException {
+      // Reported below.
+    }
+    if (!opened) {
+      messenger.showSnackBar(
+        const SnackBar(content: Text('Could not open $netPulseRepository')),
+      );
+    }
   }
 }
