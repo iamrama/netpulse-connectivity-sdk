@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 import 'package:netpulse_example/main.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 

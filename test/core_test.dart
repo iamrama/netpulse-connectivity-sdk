@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:netpulse/netpulse.dart';
-import 'package:netpulse/src/core/history_store.dart';
-import 'package:netpulse/src/core/quality_calculator.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
+import 'package:netpulse_connectivity_sdk/src/core/history_store.dart';
+import 'package:netpulse_connectivity_sdk/src/core/quality_calculator.dart';
 
 import 'support/fakes.dart';
 

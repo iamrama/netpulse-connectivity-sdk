@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 
 import '../app_controller.dart';
 import '../theme.dart';

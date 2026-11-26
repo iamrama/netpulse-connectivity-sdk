@@ -21,7 +21,7 @@ step 'analyze' . flutter analyze
 step 'unit tests' . flutter test
 step 'example tests' example flutter test
 step 'build Android' example flutter build apk --debug
-step 'Kotlin tests' example/android ./gradlew :netpulse:testDebugUnitTest
+step 'Kotlin tests' example/android ./gradlew :netpulse_connectivity_sdk:testDebugUnitTest
 if [ "$(uname)" = Darwin ]; then
   step 'build iOS' example flutter build ios --simulator --debug
 fi

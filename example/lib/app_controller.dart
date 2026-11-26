@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/widgets.dart';
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 
 /// Presentation state of the demo. All data comes from the NetPulse package.
 class AppController extends ChangeNotifier {

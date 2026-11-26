@@ -1,4 +1,4 @@
-package com.example.netpulse
+package io.github.iamrama.netpulse_connectivity_sdk
 
 /** The facts NetPulse reads from a network's capabilities. */
 data class NetworkFacts(

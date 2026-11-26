@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 import XCTest
 
-@testable import netpulse
+@testable import netpulse_connectivity_sdk
 
 class RunnerTests: XCTestCase {
 

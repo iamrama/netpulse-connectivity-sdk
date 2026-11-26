@@ -1,5 +1,4 @@
-
-# netpulse-connectivity-sdk
+# NetPulse Connectivity SDK
 
 Offline-first connectivity intelligence for Flutter on Android and iOS.
 No backend, no analytics, no account. Apache 2.0.
@@ -20,13 +19,13 @@ Flutter 3.32+, Android 7.0 (API 24)+, iOS 13+.
 
 ```yaml
 dependencies:
-  netpulse: ^0.1.0
+  netpulse_connectivity_sdk: ^0.1.0
 ```
 
 ## Usage
 
 ```dart
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 
 await NetPulse.initialize(
   const NetPulseConfig(probeEndpoint: 'https://example.com'),
@@ -125,4 +124,3 @@ flutter run
 ## License
 
 Apache 2.0. See [LICENSE](LICENSE).
-

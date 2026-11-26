@@ -1,4 +1,4 @@
-name: netpulse
+name: netpulse_connectivity_sdk
 description: >-
   Offline-first connectivity intelligence for Flutter: live network status,
   internet verification, diagnostics, quality scoring and local history.
@@ -30,7 +30,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.netpulse
+        package: io.github.iamrama.netpulse_connectivity_sdk
         pluginClass: NetpulsePlugin
       ios:
         pluginClass: NetpulsePlugin

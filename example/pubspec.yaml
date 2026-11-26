@@ -8,7 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  netpulse:
+  netpulse_connectivity_sdk:
     path: ../
   url_launcher: ^6.3.0
 

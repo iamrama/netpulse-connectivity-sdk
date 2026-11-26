@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

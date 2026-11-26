@@ -1,1 +1,1 @@
-rootProject.name = "netpulse"
+rootProject.name = "netpulse_connectivity_sdk"

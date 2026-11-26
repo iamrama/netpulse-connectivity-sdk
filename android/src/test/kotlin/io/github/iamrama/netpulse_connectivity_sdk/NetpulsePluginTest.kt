@@ -1,4 +1,4 @@
-package com.example.netpulse
+package io.github.iamrama.netpulse_connectivity_sdk
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

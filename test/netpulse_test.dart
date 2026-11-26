@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:netpulse/netpulse.dart';
-import 'package:netpulse/src/core/netpulse_client.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
+import 'package:netpulse_connectivity_sdk/src/core/netpulse_client.dart';
 
 import 'support/fakes.dart';
 

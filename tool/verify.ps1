@@ -30,7 +30,7 @@ Step 'analyze' '.' 'flutter analyze'
 Step 'unit tests' '.' 'flutter test'
 Step 'example tests' 'example' 'flutter test'
 Step 'build Android' 'example' 'flutter build apk --debug'
-Step 'Kotlin tests' 'example\android' 'gradlew.bat :netpulse:testDebugUnitTest'
+Step 'Kotlin tests' 'example\android' 'gradlew.bat :netpulse_connectivity_sdk:testDebugUnitTest'
 Step 'publish dry run' '.' 'dart pub publish --dry-run'
 
 $summary = if ($script:failed.Count) { "FAILED: $($script:failed -join ', ')" } else { 'ALL STEPS PASSED' }

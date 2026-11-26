@@ -1,4 +1,4 @@
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 
 /// History filters.
 enum TimeRange {

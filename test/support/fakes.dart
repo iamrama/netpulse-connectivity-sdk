@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:netpulse/netpulse.dart';
-import 'package:netpulse/src/core/network_prober.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
+import 'package:netpulse_connectivity_sdk/src/core/network_prober.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 ConnectivityState state(

@@ -1,4 +1,4 @@
-group = "com.example.netpulse"
+group = "io.github.iamrama.netpulse_connectivity_sdk"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -27,7 +27,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.netpulse"
+    namespace = "io.github.iamrama.netpulse_connectivity_sdk"
 
     compileSdk = 36
 

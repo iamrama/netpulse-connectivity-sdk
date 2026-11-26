@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "netpulse",
+    name: "netpulse_connectivity_sdk",
     platforms: [
         .iOS("13.0")
     ],
     products: [
-        .library(name: "netpulse", targets: ["netpulse"])
+        .library(name: "netpulse-connectivity-sdk", targets: ["netpulse_connectivity_sdk"])
     ],
     dependencies: [
         .package(name: "FlutterFramework", path: "../FlutterFramework")
     ],
     targets: [
         .target(
-            name: "netpulse",
+            name: "netpulse_connectivity_sdk",
             dependencies: [
                 .product(name: "FlutterFramework", package: "FlutterFramework")
             ],

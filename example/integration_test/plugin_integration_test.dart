@@ -3,7 +3,7 @@
 //   cd example && flutter test integration_test
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

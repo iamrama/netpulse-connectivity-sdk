@@ -1,4 +1,4 @@
-package com.example.netpulse
+package io.github.iamrama.netpulse_connectivity_sdk
 
 import android.content.Context
 import android.net.ConnectivityManager

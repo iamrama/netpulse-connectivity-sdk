@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netpulse/netpulse.dart';
+import 'package:netpulse_connectivity_sdk/netpulse_connectivity_sdk.dart';
 
 import '../theme.dart';
 import 'formatting.dart';
